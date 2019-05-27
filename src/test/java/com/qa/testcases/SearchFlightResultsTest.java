@@ -53,13 +53,15 @@ public class SearchFlightResultsTest {
 	String dd;
 	String yyyy;
 
-
+/*
+ * Few hnages d=made by Bharat
+ */
 	@BeforeTest
 	public void setUp() throws Exception {
 		System.setProperty("webdriver.chrome.driver", "./src/test/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		baseUrl = "https://www.makemytrip.com/";
-		//		driver.manage().deleteAllCookies();
+//		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

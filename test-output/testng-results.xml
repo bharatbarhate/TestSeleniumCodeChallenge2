@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="4" total="23" passed="19">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="214058" started-at="2019-05-22T03:38:15Z" finished-at="2019-05-22T03:41:49Z">
+  <suite name="Default suite" duration-ms="226587" started-at="2019-05-24T14:17:14Z" finished-at="2019-05-24T14:21:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="214058" started-at="2019-05-22T03:38:15Z" finished-at="2019-05-22T03:41:49Z">
+    <test name="Default test" duration-ms="226587" started-at="2019-05-24T14:17:14Z" finished-at="2019-05-24T14:21:01Z">
       <class name="com.qa.testcases.SearchFlightResultsTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="setUp" is-config="true" duration-ms="11447" started-at="2019-05-21T23:38:15Z" finished-at="2019-05-21T23:38:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="setUp" is-config="true" duration-ms="19640" started-at="2019-05-24T10:17:14Z" finished-at="2019-05-24T10:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectTripOption()[pri:2, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectTripOption" duration-ms="743" started-at="2019-05-21T23:38:26Z" finished-at="2019-05-21T23:38:27Z">
+        <test-method status="PASS" signature="selectTripOption()[pri:2, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectTripOption" duration-ms="660" started-at="2019-05-24T10:17:34Z" finished-at="2019-05-24T10:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTripOption -->
-        <test-method status="PASS" signature="selectTripType()[pri:3, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectTripType" duration-ms="990" started-at="2019-05-21T23:38:27Z" finished-at="2019-05-21T23:38:28Z">
+        <test-method status="PASS" signature="selectTripType()[pri:3, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectTripType" duration-ms="310" started-at="2019-05-24T10:17:34Z" finished-at="2019-05-24T10:17:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTripType -->
-        <test-method status="PASS" signature="selectFromCity()[pri:4, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectFromCity" duration-ms="1493" started-at="2019-05-21T23:38:28Z" finished-at="2019-05-21T23:38:30Z">
+        <test-method status="PASS" signature="selectFromCity()[pri:4, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectFromCity" duration-ms="1636" started-at="2019-05-24T10:17:35Z" finished-at="2019-05-24T10:17:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectFromCity -->
-        <test-method status="FAIL" signature="findFlightCost()[pri:5, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="findFlightCost" duration-ms="10044" started-at="2019-05-21T23:38:30Z" finished-at="2019-05-21T23:38:40Z">
+        <test-method status="FAIL" signature="findFlightCost()[pri:5, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="findFlightCost" duration-ms="10044" started-at="2019-05-24T10:17:36Z" finished-at="2019-05-24T10:17:46Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(),'Non Stop')])[1]/../span/span[@class='check']"}
@@ -34,8 +34,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691
 *** Element info: {Using=xpath, value=(//span[contains(text(),'Non Stop')])[1]/../span/span[@class='check']}]]>
             </message>
             <full-stacktrace>
@@ -47,8 +47,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691
 *** Element info: {Using=xpath, value=(//span[contains(text(),'Non Stop')])[1]/../span/span[@class='check']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -67,7 +67,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
 	at com.qa.uiMap.SearchIternary.chkNoOfStops(SearchIternary.java:34)
-	at com.qa.testcases.SearchFlightResultsTest.findFlightCost(SearchFlightResultsTest.java:500)
+	at com.qa.testcases.SearchFlightResultsTest.findFlightCost(SearchFlightResultsTest.java:498)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,31 +98,31 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findFlightCost -->
-        <test-method status="PASS" signature="selectToCity()[pri:5, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectToCity" duration-ms="1385" started-at="2019-05-21T23:38:40Z" finished-at="2019-05-21T23:38:41Z">
+        <test-method status="PASS" signature="selectToCity()[pri:5, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectToCity" duration-ms="1322" started-at="2019-05-24T10:17:46Z" finished-at="2019-05-24T10:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectToCity -->
-        <test-method status="PASS" signature="selectDepartureDate()[pri:6, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectDepartureDate" duration-ms="1732" started-at="2019-05-21T23:38:41Z" finished-at="2019-05-21T23:38:43Z">
+        <test-method status="PASS" signature="selectDepartureDate()[pri:6, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectDepartureDate" duration-ms="1575" started-at="2019-05-24T10:17:48Z" finished-at="2019-05-24T10:17:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDepartureDate -->
-        <test-method status="PASS" signature="selectReturnDate()[pri:6, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectReturnDate" duration-ms="578" started-at="2019-05-21T23:38:43Z" finished-at="2019-05-21T23:38:43Z">
+        <test-method status="PASS" signature="selectReturnDate()[pri:6, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="selectReturnDate" duration-ms="501" started-at="2019-05-24T10:17:49Z" finished-at="2019-05-24T10:17:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectReturnDate -->
-        <test-method status="PASS" signature="clickSearch()[pri:7, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="clickSearch" duration-ms="8158" started-at="2019-05-21T23:38:43Z" finished-at="2019-05-21T23:38:52Z">
+        <test-method status="PASS" signature="clickSearch()[pri:7, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="clickSearch" duration-ms="9138" started-at="2019-05-24T10:17:50Z" finished-at="2019-05-24T10:17:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSearch -->
-        <test-method status="PASS" signature="findNumberOfFlightsCompleScroll()[pri:8, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="findNumberOfFlightsCompleScroll" duration-ms="11306" started-at="2019-05-21T23:38:52Z" finished-at="2019-05-21T23:39:03Z">
+        <test-method status="PASS" signature="findNumberOfFlightsCompleScroll()[pri:8, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="findNumberOfFlightsCompleScroll" duration-ms="14021" started-at="2019-05-24T10:17:59Z" finished-at="2019-05-24T10:18:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findNumberOfFlightsCompleScroll -->
-        <test-method status="PASS" signature="findNumberOfFlights()[pri:9, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="findNumberOfFlights" duration-ms="6895" started-at="2019-05-21T23:39:03Z" finished-at="2019-05-21T23:39:10Z">
+        <test-method status="PASS" signature="findNumberOfFlights()[pri:9, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="findNumberOfFlights" duration-ms="7302" started-at="2019-05-24T10:18:13Z" finished-at="2019-05-24T10:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findNumberOfFlights -->
-        <test-method status="FAIL" signature="checkStopOptionsfor1Stop()[pri:10, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="checkStopOptionsfor1Stop" duration-ms="10102" started-at="2019-05-21T23:39:10Z" finished-at="2019-05-21T23:39:20Z">
+        <test-method status="FAIL" signature="checkStopOptionsfor1Stop()[pri:10, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="checkStopOptionsfor1Stop" duration-ms="10112" started-at="2019-05-24T10:18:20Z" finished-at="2019-05-24T10:18:30Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not interactable
@@ -132,8 +132,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
@@ -143,8 +143,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -159,7 +159,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at com.qa.testcases.SearchFlightResultsTest.checkStopOptionsfor1Stop(SearchFlightResultsTest.java:341)
+	at com.qa.testcases.SearchFlightResultsTest.checkStopOptionsfor1Stop(SearchFlightResultsTest.java:339)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -190,7 +190,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStopOptionsfor1Stop -->
-        <test-method status="FAIL" signature="checkStopOptionsforNonStop()[pri:11, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="checkStopOptionsforNonStop" duration-ms="10079" started-at="2019-05-21T23:39:20Z" finished-at="2019-05-21T23:39:30Z">
+        <test-method status="FAIL" signature="checkStopOptionsforNonStop()[pri:11, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="checkStopOptionsforNonStop" duration-ms="10092" started-at="2019-05-24T10:18:30Z" finished-at="2019-05-24T10:18:40Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not interactable
@@ -200,8 +200,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
@@ -211,8 +211,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -227,7 +227,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:577)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:308)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at com.qa.testcases.SearchFlightResultsTest.checkStopOptionsforNonStop(SearchFlightResultsTest.java:352)
+	at com.qa.testcases.SearchFlightResultsTest.checkStopOptionsforNonStop(SearchFlightResultsTest.java:350)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -258,7 +258,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStopOptionsforNonStop -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12902" started-at="2019-05-21T23:39:30Z" data-provider="getdata" finished-at="2019-05-21T23:39:43Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="13088" started-at="2019-05-24T10:18:40Z" data-provider="getdata" finished-at="2019-05-24T10:18:54Z">
           <params>
             <param index="0">
               <value>
@@ -274,7 +274,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12905" started-at="2019-05-21T23:39:43Z" data-provider="getdata" finished-at="2019-05-21T23:39:56Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="13091" started-at="2019-05-24T10:18:54Z" data-provider="getdata" finished-at="2019-05-24T10:19:07Z">
           <params>
             <param index="0">
               <value>
@@ -290,7 +290,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12943" started-at="2019-05-21T23:39:56Z" data-provider="getdata" finished-at="2019-05-21T23:40:09Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12943" started-at="2019-05-24T10:19:07Z" data-provider="getdata" finished-at="2019-05-24T10:19:20Z">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12808" started-at="2019-05-21T23:40:09Z" data-provider="getdata" finished-at="2019-05-21T23:40:21Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12964" started-at="2019-05-24T10:19:20Z" data-provider="getdata" finished-at="2019-05-24T10:19:33Z">
           <params>
             <param index="0">
               <value>
@@ -322,7 +322,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12881" started-at="2019-05-21T23:40:21Z" data-provider="getdata" finished-at="2019-05-21T23:40:34Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12946" started-at="2019-05-24T10:19:33Z" data-provider="getdata" finished-at="2019-05-24T10:19:45Z">
           <params>
             <param index="0">
               <value>
@@ -338,7 +338,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12866" started-at="2019-05-21T23:40:34Z" data-provider="getdata" finished-at="2019-05-21T23:40:47Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="13010" started-at="2019-05-24T10:19:45Z" data-provider="getdata" finished-at="2019-05-24T10:19:59Z">
           <params>
             <param index="0">
               <value>
@@ -354,7 +354,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12754" started-at="2019-05-21T23:40:47Z" data-provider="getdata" finished-at="2019-05-21T23:41:00Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12889" started-at="2019-05-24T10:19:59Z" data-provider="getdata" finished-at="2019-05-24T10:20:11Z">
           <params>
             <param index="0">
               <value>
@@ -370,7 +370,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12644" started-at="2019-05-21T23:41:00Z" data-provider="getdata" finished-at="2019-05-21T23:41:13Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12777" started-at="2019-05-24T10:20:11Z" data-provider="getdata" finished-at="2019-05-24T10:20:24Z">
           <params>
             <param index="0">
               <value>
@@ -386,7 +386,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12682" started-at="2019-05-21T23:41:13Z" data-provider="getdata" finished-at="2019-05-21T23:41:25Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12784" started-at="2019-05-24T10:20:24Z" data-provider="getdata" finished-at="2019-05-24T10:20:37Z">
           <params>
             <param index="0">
               <value>
@@ -402,7 +402,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12694" started-at="2019-05-21T23:41:25Z" data-provider="getdata" finished-at="2019-05-21T23:41:38Z">
+        <test-method status="PASS" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="12821" started-at="2019-05-24T10:20:37Z" data-provider="getdata" finished-at="2019-05-24T10:20:50Z">
           <params>
             <param index="0">
               <value>
@@ -418,7 +418,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="FAIL" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="10055" started-at="2019-05-21T23:41:38Z" data-provider="getdata" finished-at="2019-05-21T23:41:48Z">
+        <test-method status="FAIL" signature="SelectFlightAndValidateTotal(int, int)[pri:12, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="SelectFlightAndValidateTotal" duration-ms="10043" started-at="2019-05-24T10:20:50Z" data-provider="getdata" finished-at="2019-05-24T10:21:00Z">
           <params>
             <param index="0">
               <value>
@@ -441,8 +441,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691
 *** Element info: {Using=xpath, value=(//div[@class='splitVw-sctn pull-left']/div[2]/div[contains(@class,'fli-list splitVw-listing')])[300]/label/div/span/span[@class='splitVw-inner']}]]>
             </message>
             <full-stacktrace>
@@ -454,8 +454,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
 System info: host: 'DESKTOP-66A6QG1', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
-Session ID: a786a3d484237000494e9c29c13c181f
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\barha\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52206}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.157, webStorageEnabled: true}
+Session ID: 82c038b4cb05fa577a4080efc960a691
 *** Element info: {Using=xpath, value=(//div[@class='splitVw-sctn pull-left']/div[2]/div[contains(@class,'fli-list splitVw-listing')])[300]/label/div/span/span[@class='splitVw-inner']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -474,8 +474,8 @@ Session ID: a786a3d484237000494e9c29c13c181f
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:320)
 	at com.qa.uiMap.SearchIternary.rdbdepartureFlight(SearchIternary.java:39)
-	at com.qa.testcases.SearchFlightResultsTest.SelectDepartureFlight(SearchFlightResultsTest.java:373)
-	at com.qa.testcases.SearchFlightResultsTest.SelectFlightAndValidateTotal(SearchFlightResultsTest.java:446)
+	at com.qa.testcases.SearchFlightResultsTest.SelectDepartureFlight(SearchFlightResultsTest.java:371)
+	at com.qa.testcases.SearchFlightResultsTest.SelectFlightAndValidateTotal(SearchFlightResultsTest.java:444)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -506,7 +506,7 @@ Session ID: a786a3d484237000494e9c29c13c181f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectFlightAndValidateTotal -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="901" started-at="2019-05-21T23:41:48Z" finished-at="2019-05-21T23:41:49Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testcases.SearchFlightResultsTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="803" started-at="2019-05-24T10:21:00Z" finished-at="2019-05-24T10:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
